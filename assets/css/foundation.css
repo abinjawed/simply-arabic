@@ -1,0 +1,78 @@
+table {
+  width:40%;
+  height:70%;
+  border: 1px solid black;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  position: relative;
+}
+
+.image {
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #5c5c3d;
+}
+
+.container:hover .overlay {
+  opacity: 0.8;
+}
+
+.div {
+  font-size: 40px;
+  position: absolute;
+  top: 115%;
+  left: 20%;
+  text-align: center;
+}
+
+div.letters {
+  font-size: 60px;
+  position: absolute;
+  top: 115%;
+  left: 20%;
+  text-align: center;
+}
+
+
+.text {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  text-align: center;
+  top: 40px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.text2 {
+  color: white;
+  font-size: 80px;
+  position: absolute;
+  text-align: center;
+  top: 40px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+h2 {
+  margin: 5px 0 0 650px;
+}
