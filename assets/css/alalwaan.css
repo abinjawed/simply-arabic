@@ -1,0 +1,253 @@
+table {
+  width:40%;
+  height:70%;
+  border: 1px solid black;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgBoxRed
+    {
+      width: 264px;
+      height: 262px;
+      background:url("images/red.png") no-repeat center;
+      background-size: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+.imgBoxRed:hover {
+      width: 264px;
+      height: 262px;
+      background:url("images/redarabic.png") no-repeat center;
+      background-size: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+.imgBoxBlue
+    {
+      width: 264px;
+      height: 262px;
+      background:url("images/blue.png") no-repeat center;
+      background-size: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+.imgBoxBlue:hover {
+      width: 264px;
+      height: 262px;
+      background:url("images/bluearabic.png") no-repeat center;
+      background-size: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+.imgBoxYellow
+    {
+      width: 264px;
+      height: 262px;
+      background:url("images/yellow.png") no-repeat center;
+      background-size: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+.imgBoxYellow:hover {
+      width: 264px;
+      height: 262px;
+      background:url("images/yellowarabic.png") no-repeat center;
+      background-size: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+.imgBoxGreen{
+      width: 264px;
+      height: 262px;
+      background:url("images/green.png") no-repeat center;
+      background-size: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+.imgBoxGreen:hover {
+      width: 264px;
+      height: 262px;
+      background:url("images/greenarabic.png") no-repeat center;
+      background-size: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+.imgBoxOrange{
+      width: 264px;
+      height: 262px;
+      background:url("images/orange.png") no-repeat center;
+      background-size: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+.imgBoxOrange:hover {
+      width: 264px;
+      height: 262px;
+      background:url("images/orangearabic.png") no-repeat center;
+      background-size: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+.imgBoxWhite{
+      width: 264px;
+      height: 262px;
+      background:url("images/white.png") no-repeat center;
+      background-size: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+.imgBoxWhite:hover {
+      width: 264px;
+      height: 262px;
+      background:url("images/whitearabic.png") no-repeat center;
+      background-size: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+.imgBoxBlack{
+      width: 264px;
+      height: 262px;
+      background:url("images/black.png") no-repeat center;
+      background-size: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+.imgBoxBlack:hover {
+      width: 264px;
+      height: 262px;
+      background:url("images/blackarabic.png") no-repeat center;
+      background-size: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+.imgBoxPink
+    {
+      width: 264px;
+      height: 262px;
+      background:url("images/pink.png") no-repeat center;
+      background-size: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+.imgBoxPink:hover {
+      width: 264px;
+      height: 262px;
+      background:url("images/pinkarabic.png") no-repeat center;
+      background-size: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+.imgBoxBrown{
+      width: 264px;
+      height: 262px;
+      background:url("images/brown.png") no-repeat center;
+      background-size: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+.imgBoxBrown:hover {
+      width: 264px;
+      height: 262px;
+      background:url("images/brownarabic.png") no-repeat center;
+      background-size: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+.imgBoxGray{
+      width: 264px;
+      height: 262px;
+      background:url("images/gray.png") no-repeat center;
+      background-size: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+.imgBoxGray:hover {
+      width: 264px;
+      height: 262px;
+      background:url("images/grayarabic.png") no-repeat center;
+      background-size: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+.imgBoxPurple{
+      width: 264px;
+      height: 262px;
+      background:url("images/purple.png") no-repeat center;
+      background-size: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+.imgBoxPurple:hover {
+      width: 264px;
+      height: 262px;
+      background:url("images/purplearabic.png") no-repeat center;
+      background-size: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.tbody {
+  width: 200%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 50%;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+/*the goback and homepage diagonally split button*/
+.con { width:195px; position:relative; }
+
+.lft { width:0; height:0; position:absolute; top:-98px; left:0px;
+        border-style:solid;
+        border-width:195px 0 0 195px;
+        border-color:transparent orange;
+}
+
+.rgt { width:0; height:0;  position:absolute; top:-98px; right:0px;
+        border-style:solid;
+        border-width:0 195px 195px 0;
+        border-color:transparent #007bff;
+}
+
+.lft-btn { position:absolute; top:5px; left:12px; width:80px;
+  height:170px; }
+
+.rgt-btn { position:absolute; top:-91px; right:15px; width:85px;
+  height:175px;}
+
+/*the table*/
+.table {
+  height: 40%;
+  width: 60%;
+  border: 1;
+  align: center;
+}
